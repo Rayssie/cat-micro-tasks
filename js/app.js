@@ -55,6 +55,8 @@ const CAT_SVGS = {
       <rect x="13" y="7" width="2" height="3" fill="#FFBF69"/>
     </svg>`
 };
+lobbyView.classList.add('hidden');
+questView.classList.remove('hidden');
 
 let currentTask = null;
 let currentStepIndex = 0;
