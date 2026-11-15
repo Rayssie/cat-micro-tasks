@@ -1,19 +1,33 @@
 // 內建 3 款 8-bit 像素橘貓 SVG（睡覺、工作、慶祝）
+// 內建 3 款 8-bit 像素橘貓 SVG（已更新為聖誕節限定版）
 const CAT_SVGS = {
   sleep: `
     <svg viewBox="0 0 16 16" width="72" height="72" shape-rendering="crispEdges">
+      <!-- 聖誕帽 -->
+      <rect x="5" y="3" width="6" height="1" fill="#FFFFFF"/>
+      <rect x="6" y="1" width="4" height="2" fill="#D62828"/>
+      <rect x="10" y="1" width="1" height="1" fill="#D62828"/>
+      <rect x="11" y="1" width="2" height="2" fill="#FFFFFF"/>
+      <!-- 貓咪本體 -->
       <rect x="3" y="6" width="10" height="7" fill="#FF9F1C"/>
       <rect x="3" y="4" width="2" height="2" fill="#FF9F1C"/>
       <rect x="11" y="4" width="2" height="2" fill="#FF9F1C"/>
       <rect x="5" y="9" width="2" height="1" fill="#2C2C2C"/>
       <rect x="9" y="9" width="2" height="1" fill="#2C2C2C"/>
       <rect x="7" y="10" width="2" height="1" fill="#FF6B6B"/>
+      <!-- 睡覺的 Zzz -->
       <rect x="12" y="2" width="3" height="1" fill="#2EC4B6"/>
       <rect x="13" y="3" width="1" height="1" fill="#2EC4B6"/>
       <rect x="12" y="4" width="3" height="1" fill="#2EC4B6"/>
     </svg>`,
   work: `
     <svg viewBox="0 0 16 16" width="72" height="72" shape-rendering="crispEdges">
+      <!-- 聖誕帽 (配合站姿往上移 1 單位) -->
+      <rect x="5" y="2" width="6" height="1" fill="#FFFFFF"/>
+      <rect x="6" y="0" width="4" height="2" fill="#D62828"/>
+      <rect x="10" y="0" width="1" height="1" fill="#D62828"/>
+      <rect x="11" y="0" width="2" height="2" fill="#FFFFFF"/>
+      <!-- 貓咪本體 -->
       <rect x="3" y="5" width="10" height="8" fill="#FF9F1C"/>
       <rect x="3" y="3" width="2" height="2" fill="#FF9F1C"/>
       <rect x="11" y="3" width="2" height="2" fill="#FF9F1C"/>
@@ -25,10 +39,15 @@ const CAT_SVGS = {
     </svg>`,
   party: `
     <svg viewBox="0 0 16 16" width="72" height="72" shape-rendering="crispEdges">
+      <!-- 聖誕帽 (取代原本的綠色三角帽) -->
+      <rect x="5" y="3" width="6" height="1" fill="#FFFFFF"/>
+      <rect x="6" y="1" width="4" height="2" fill="#D62828"/>
+      <rect x="10" y="1" width="1" height="1" fill="#D62828"/>
+      <rect x="11" y="1" width="2" height="2" fill="#FFFFFF"/>
+      <!-- 貓咪本體 -->
       <rect x="3" y="6" width="10" height="7" fill="#FF9F1C"/>
       <rect x="3" y="4" width="2" height="2" fill="#FF9F1C"/>
       <rect x="11" y="4" width="2" height="2" fill="#FF9F1C"/>
-      <polygon points="8,1 6,5 10,5" fill="#2EC4B6"/>
       <rect x="5" y="8" width="2" height="1" fill="#2C2C2C"/>
       <rect x="9" y="8" width="2" height="1" fill="#2C2C2C"/>
       <rect x="7" y="10" width="2" height="2" fill="#FF6B6B"/>
