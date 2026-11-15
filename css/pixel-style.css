@@ -282,4 +282,44 @@ body {
 }
 
 /* 像素按鈕 */
-.pixel-
+.pixel-btn {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 1.1rem;
+  border: 3px solid var(--border-color);
+  box-shadow: 4px 4px 0px var(--border-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+.pixel-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px var(--border-color);
+}
+
+.pixel-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0px var(--border-color);
+}
+
+.primary-btn {
+  background-color: var(--primary-orange);
+  color: #FFF;
+}
+
+.secondary-btn {
+  width: auto;
+  padding: 6px 14px;
+  font-size: 0.95rem;
+  background-color: #FFF;
+}
+
+.success-btn {
+  background-color: var(--success-green);
+  color: #FFF;
+}
+
+.hidden {
+  display: none !important;
+}
