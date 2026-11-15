@@ -1,11 +1,11 @@
 :root {
-  --bg-color: #FDF6E3;
-  --card-bg: #FFFFFF;
-  --border-color: #2C2C2C;
-  --primary-orange: #FF9F1C;
-  --secondary-pink: #FFBF69;
-  --success-green: #2EC4B6;
-  --accent-cream: #FFF3D6;
+  --bg-color: #F0F4F8;       /* 冰雪白底色 */
+  --card-bg: #FFFFFF;        /* 純白卡片 */
+  --border-color: #2C2C2C;   /* 像素黑框 */
+  --primary-orange: #D62828; /* 聖誕紅 (替換原本的主題橘) */
+  --secondary-pink: #E9C46A; /* 鈴鐺金 (替換原本的裝飾粉) */
+  --success-green: #2D6A4F;  /* 冷杉綠 (替換原本的破關綠) */
+  --accent-cream: #FBEFEF;   /* 暖雪白 (貓咪對話框背景) */
   --text-main: #2C2C2C;
   --text-muted: #666666;
 }
@@ -18,7 +18,8 @@
 
 body {
   background-color: var(--bg-color);
-  background-image: radial-gradient(#E5DEC9 1.5px, transparent 1.5px);
+  /* 背景改成類似落雪的淡藍灰色點點 */
+  background-image: radial-gradient(#D0D8E0 1.5px, transparent 1.5px);
   background-size: 20px 20px;
   color: var(--text-main);
   font-family: 'DotGothic16', sans-serif;
@@ -42,7 +43,7 @@ body {
 
 .header-bar {
   text-align: center;
-  background-color: var(--primary-orange);
+  background-color: var(--primary-orange); /* 現在是聖誕紅了 */
   color: #FFF;
 }
 
@@ -116,6 +117,7 @@ body {
   font-size: 1.25rem;
   margin: 24px 0 16px;
   letter-spacing: 2px;
+  color: var(--success-green); /* 標題換成冷杉綠 */
 }
 
 .task-grid {
@@ -163,7 +165,7 @@ body {
 }
 
 .difficulty {
-  color: #E67E22;
+  color: var(--primary-orange); /* 難度星星改成聖誕紅 */
   font-size: 0.9rem;
 }
 
@@ -174,7 +176,7 @@ body {
 
 .card-start-hint {
   font-size: 0.9rem;
-  color: var(--primary-orange);
+  color: var(--success-green); /* 提示文字改成冷杉綠 */
   text-align: right;
   font-weight: bold;
 }
@@ -246,7 +248,7 @@ body {
 
 .step-timer {
   font-weight: bold;
-  color: #D35400;
+  color: var(--primary-orange);
 }
 
 .step-action {
@@ -267,57 +269,17 @@ body {
 .victory-card {
   text-align: center;
   border: 3px solid var(--border-color);
-  background-color: #E8F8F5;
+  background-color: #E9F0EC; /* 淡淡的冷杉綠底色 */
   padding: 28px 16px;
   margin-bottom: 24px;
 }
 
 .victory-title {
   font-family: 'Press Start 2P', monospace;
-  color: var(--success-green);
+  color: var(--primary-orange); /* 破關標題用聖誕紅 */
   font-size: 1.2rem;
   margin-bottom: 12px;
 }
 
 /* 像素按鈕 */
-.pixel-btn {
-  font-family: 'DotGothic16', sans-serif;
-  font-size: 1.1rem;
-  border: 3px solid var(--border-color);
-  box-shadow: 4px 4px 0px var(--border-color);
-  padding: 10px 20px;
-  cursor: pointer;
-  width: 100%;
-  font-weight: bold;
-}
-
-.pixel-btn:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0px var(--border-color);
-}
-
-.pixel-btn:active {
-  transform: translate(3px, 3px);
-  box-shadow: 1px 1px 0px var(--border-color);
-}
-
-.primary-btn {
-  background-color: var(--primary-orange);
-  color: #FFF;
-}
-
-.secondary-btn {
-  width: auto;
-  padding: 6px 14px;
-  font-size: 0.95rem;
-  background-color: #FFF;
-}
-
-.success-btn {
-  background-color: var(--success-green);
-  color: #FFF;
-}
-
-.hidden {
-  display: none !important;
-}
+.pixel-
