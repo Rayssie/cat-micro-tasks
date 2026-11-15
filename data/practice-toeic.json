@@ -1,0 +1,40 @@
+{
+  "id": "practice-toeic",
+  "title": "練習多益",
+  "category": "學業",
+  "difficulty": "★★☆☆☆",
+  "cat_intro": "喵～多益不用一次寫完，先伸個懶腰，我們只做五個小動作就好。",
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "打開多益練習題或 App",
+      "duration_mins": 1,
+      "cat_tip": "不用做題，打開就是勝利喵～"
+    },
+    {
+      "step_number": 2,
+      "action": "倒一杯水放在桌上",
+      "duration_mins": 1,
+      "cat_tip": "貓咪也要先喝水才有精神喵"
+    },
+    {
+      "step_number": 3,
+      "action": "戴上耳機，播放一段聽力",
+      "duration_mins": 2,
+      "cat_tip": "聽不懂也沒關係，耳朵先暖身喵"
+    },
+    {
+      "step_number": 4,
+      "action": "做完三題單字或文法題",
+      "duration_mins": 5,
+      "cat_tip": "只要三題，錯了也不扣罐罐喵"
+    },
+    {
+      "step_number": 5,
+      "action": "對照解答，圈出一個錯題",
+      "duration_mins": 3,
+      "cat_tip": "只圈一個就好，剩下明天再說喵"
+    }
+  ],
+  "cat_outro": "喵～你今天練了多益，超厲害！去摸摸貓咪領獎勵吧！"
+}
