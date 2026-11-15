@@ -1,0 +1,40 @@
+{
+  "id": "clean-room",
+  "title": "整理爆炸的房間",
+  "category": "生活",
+  "difficulty": "★★☆☆☆",
+  "cat_intro": "看到滿地東西想睡覺很正常喵，我們先撿眼前的垃圾就好。",
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "抽出 1 個塑膠袋，放在地板正中央",
+      "duration_mins": 1,
+      "cat_tip": "只要把袋子打開放在地上，這一步就滿分過關喵！"
+    },
+    {
+      "step_number": 2,
+      "action": "撿起桌上跟地上看得見的 5 個垃圾丟進袋子裡",
+      "duration_mins": 2,
+      "cat_tip": "衛生紙、發票、手搖飲空杯都算，湊滿 5 個就停手。"
+    },
+    {
+      "step_number": 3,
+      "action": "把散落在床上的衣服全部抓起來，集中丟進洗衣籃",
+      "duration_mins": 3,
+      "cat_tip": "不用摺衣服！全部抱過去塞進籃子裡，床馬上就空出來了。"
+    },
+    {
+      "step_number": 4,
+      "action": "把書桌上的杯子、碗盤拿去廚房水槽放著",
+      "duration_mins": 2,
+      "cat_tip": "先拿去放就好，沒叫你現在洗碗喵！"
+    },
+    {
+      "step_number": 5,
+      "action": "把書桌正前方清出一塊能放筆電的空位，擦一下桌面",
+      "duration_mins": 4,
+      "cat_tip": "其他雜物先推到旁邊，只要眼前這塊乾淨心情就會好！"
+    }
+  ],
+  "cat_outro": "呼嚕嚕～房間已經有落腳的地方了，你超棒的喵！"
+}
