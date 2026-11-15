@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>像素貓咪：拖延症微任務拆解器</title>
+  <!-- 引入復古像素字體 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/pixel-style.css">
+</head>
+<body>
+  <div class="game-container">
+    <!-- 頂部標題列 -->
+    <header class="pixel-box header-bar">
+      <h1 class="pixel-title">🐾 CAT MICRO-TASK BREAKER</h1>
+      <p class="subtitle">把討厭的大事，拆成連貓咪都會做的 2 分鐘小事</p>
+    </header>
+
+    <!-- 視圖 1：任務大廳 (Lobby View) -->
+    <main id="lobby-view" class="view-section">
+      <div class="cat-banner pixel-box">
+        <div id="lobby-cat-avatar" class="cat-sprite"></div>
+        <div class="dialog-box">
+          <p class="speaker-tag">橘貓店長</p>
+          <p>「喵～今天有什麼讓你一直逃避的事情嗎？選一張卡片，我們只做 2 分鐘就好。」</p>
+        </div>
+      </div>
+
+      <h2 class="section-heading">▼ 選擇你要拆解的討厭任務 ▼</h2>
+      <div id="task-grid" class="task-grid">
+        <!-- 由 app.js 動態讀取 manifest.json 生成卡片 -->
+      </div>
+    </main>
+
+    <!-- 視圖 2：闖關視圖 (Quest View) -->
+    <main id="quest-view" class="view-section hidden">
+      <div class="quest-top-bar">
+        <button id="back-btn" class="pixel-btn secondary-btn">◀ 逃回大廳</button>
+        <span id="quest-category" class="badge">類別</span>
+      </div>
+
+      <div class="pixel-box quest-stage">
+        <h2 id="quest-title" class="quest-title">任務名稱</h2>
+
+        <!-- 貓咪狀態與對話框 -->
+        <div class="cat-status-area">
+          <div id="quest-cat-avatar" class="cat-sprite bounce"></div>
+          <div class="dialog-box">
+            <p class="speaker-tag">陪伴橘貓</p>
+            <p id="cat-speech">貓咪台詞載入中...</p>
+          </div>
+        </div>
+
+        <!-- RPG 進度血條 -->
+        <div class="progress-wrapper">
+          <div class="progress-labels">
+            <span>PROGRESS</span>
+            <span id="progress-text">STEP 1 / 5</span>
+          </div>
+          <div class="progress-bar-border">
+            <div id="progress-fill" class="progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <!-- 單一步驟卡片區 -->
+        <div id="step-card" class="step-card">
+          <div class="step-meta">
+            <span id="step-badge" class="step-badge">STEP 1</span>
+            <span id="step-timer" class="step-timer">⏱ 預估 2 分鐘</span>
+          </div>
+          <h3 id="step-action" class="step-action">動作指令載入中...</h3>
+          <p id="step-tip" class="step-tip">💡 貓咪提示</p>
+        </div>
+
+        <!-- 破關慶祝區 (預設隱藏) -->
+        <div id="victory-card" class="victory-card hidden">
+          <h3 class="victory-title">🎉 QUEST CLEAR! 🎉</h3>
+          <p id="victory-text">你已經成功跨出最難的第一步了喵！</p>
+        </div>
+
+        <!-- 底部操作按鈕 -->
+        <div class="action-Controls">
+          <button id="complete-step-btn" class="pixel-btn primary-btn">🐾 我做完了！下一步</button>
+          <button id="finish-quest-btn" class="pixel-btn success-btn hidden">🏆 領取貓掌印章（回大廳）</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
