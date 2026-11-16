@@ -29,7 +29,7 @@
 {
   "id": "task-id-here",
   "title": "任務標題（限 12 字以內）",
-  "category": "學業 | 生活 | 職場 | 自我照顧",
+  "category": "學業 | 生活 ",
   "difficulty": "★☆☆☆☆",
   "cat_intro": "貓咪開場白（限 35 字以內，安撫焦慮用）",
   "steps": [
