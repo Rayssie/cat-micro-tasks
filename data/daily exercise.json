@@ -1,0 +1,40 @@
+{
+  "id": "daily-exercise",
+  "title": "每日運動",
+  "category": "自我照顧",
+  "difficulty": "★★☆☆☆",
+  "cat_intro": "喵～不用練成肌肉貓，動一下下就很棒了。",
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "換上方便活動的衣服",
+      "duration_mins": 2,
+      "cat_tip": "穿好就贏一半了喵～"
+    },
+    {
+      "step_number": 2,
+      "action": "把運動墊或毛巾鋪在地上",
+      "duration_mins": 1,
+      "cat_tip": "軟軟的地方，貓咪也喜歡喵"
+    },
+    {
+      "step_number": 3,
+      "action": "站起來伸個懶腰，轉轉肩膀",
+      "duration_mins": 2,
+      "cat_tip": "跟貓咪一樣，先拱背再伸展喵"
+    },
+    {
+      "step_number": 4,
+      "action": "做10下深蹲或原地踏步",
+      "duration_mins": 3,
+      "cat_tip": "做不完也沒關係，貓咪不計分喵"
+    },
+    {
+      "step_number": 5,
+      "action": "喝一口水，拍拍自己說辛苦了",
+      "duration_mins": 1,
+      "cat_tip": "喝口水補充能量，貓咪幫你按讚"
+    }
+  ],
+  "cat_outro": "破關喵！身體動起來了，今晚會睡得更香～"
+}
