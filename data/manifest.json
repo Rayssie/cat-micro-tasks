@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "term-paper",
+      "title": "寫期末報告",
+      "category": "學業",
+      "difficulty": "★★★☆☆"
+    },
+    {
+      "id": "clean-room",
+      "title": "整理爆炸的房間",
+      "category": "生活",
+      "difficulty": "★★☆☆☆"
+    },
+    {
+      "id": "practice-toeic",
+      "title": "練習多益",
+      "category": "學業",
+      "difficulty": "★★☆☆☆"
+    },
+    {
+      "id": "daily-exercise",
+      "title": "每日運動",
+      "category": "自我照顧",
+      "difficulty": "★★☆☆☆"
+    }
+  ]
+}
