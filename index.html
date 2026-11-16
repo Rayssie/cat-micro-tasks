@@ -28,7 +28,19 @@
         </div>
       </div>
 
-      <h2 class="section-heading">▼ 選擇你要拆解的討厭任務 ▼</h2>
+     <h2 class="section-heading">▼ 選擇你要拆解的討厭任務 ▼</h2>
+      
+      <!-- 新增：大廳控制列 (篩選器與隨機按鈕) -->
+      <div class="lobby-controls">
+        <div class="filter-group">
+          <button class="pixel-btn filter-btn active" data-category="all">全部</button>
+          <button class="pixel-btn filter-btn" data-category="學業">學業</button>
+          <button class="pixel-btn filter-btn" data-category="生活">生活</button>
+        </div>
+        <button id="random-task-btn" class="pixel-btn secondary-btn">🎲 貓咪幫我選</button>
+      </div>
+
+      <div id="task-grid" class="task-grid">
       <div id="task-grid" class="task-grid">
         <!-- 由 app.js 動態讀取 manifest.json 生成卡片 -->
       </div>
